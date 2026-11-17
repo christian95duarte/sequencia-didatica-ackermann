@@ -1,5 +1,5 @@
-"""Algoritmo de Euclides (Secao 3.6): pior caso (Tabela 3.2),
-custo efetivo (Tabela 3.3) e amostra aleatoria (Secao 3.6.4)."""
+"""Algoritmo de Euclides (Secao 3.6): pior caso (Tabela 3.1),
+custo efetivo (Tabela 3.2) e amostra aleatoria (Secao 3.6.4)."""
 import random
 
 
@@ -12,11 +12,11 @@ def euclides(m, n):
     return m, k
 
 
-# Tabela 3.2: pares de Fibonacci consecutivos
+# Tabela 3.1: pares de Fibonacci consecutivos
 for par in [(8, 5), (21, 13), (55, 34), (144, 89), (377, 233), (610, 377)]:
     print(par, euclides(*par))
 
-# Tabela 3.3
+# Tabela 3.2
 for par in [(1071, 462), (144, 89), (10**9 + 7, 10**8 + 3)]:
     print(par, euclides(*par))
 
