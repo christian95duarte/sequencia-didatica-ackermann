@@ -23,7 +23,7 @@ Códigos em Python puro, usados em sala e nas verificações do texto:
 | [`python/encontro1_escada.py`](python/encontro1_escada.py) | Seção 4.3.1 e Apêndice C.1: soma, produto e potência, cada um chamando o anterior |
 | [`python/encontro5_ackermann.py`](python/encontro5_ackermann.py) | Seção 4.3.5: investigação guiada com a Função de Ackermann (versão sem memoização) |
 | [`python/simulacoes_4_4.py`](python/simulacoes_4_4.py) | Seção 4.4: contagem de chamadas, limite de recursão e fórmulas fechadas |
-| [`python/euclides.py`](python/euclides.py) | Seção 3.6: Tabelas 3.2 e 3.3 e amostra aleatória (semente 2026) |
+| [`python/euclides.py`](python/euclides.py) | Seção 3.6: Tabelas 3.1 e 3.2 e amostra aleatória (semente 2026) |
 
 ## Sem laboratório de informática
 

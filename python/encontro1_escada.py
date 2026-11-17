@@ -12,3 +12,4 @@ def pot(x, n):  return 1 if n == 0 else prod(pot(x, n-1), x)
 
 print(prod(2, 4))   # 8  = 2+2+2+2
 print(pot(2, 4))    # 16 = 2*2*2*2
+# entradas pequenas: pot(2, 11) ja excede o limite de recursao do Python
